@@ -27,7 +27,7 @@ ionic serve -l
 q
 ```
 
-## 4
+## 5
 
 src/pages/home/home.ts
 
@@ -80,7 +80,7 @@ export class HomePage {
 }
 ```
 
-## 5
+## 6
 
 src/pages/home/home.html
 
@@ -105,7 +105,7 @@ src/pages/home/home.html
 
 ```
 
-## 6
+## 7
 
 Install plugin
 
@@ -113,7 +113,7 @@ Install plugin
 ionic plugin add cordova-plugin-camera
 ``` 
 
-## 7
+## 8
 
 Create chat page
 
@@ -121,7 +121,7 @@ Create chat page
 ionic g page chat
 ``` 
 
-## 8
+## 9
 
 ```
 import { NgModule } from '@angular/core';
@@ -150,7 +150,7 @@ export class AppModule {}
 
 ```
 
-## 9
+## 10
 
 src/pages/chat/chat.html
 ```
@@ -189,7 +189,7 @@ src/pages/chat/chat.html
 </ion-footer>
 ``` 
 
-## 10
+## 11
 
 src/pages/chat/chat.ts
 ```
@@ -222,14 +222,15 @@ export class ChatPage {
 
 ```
 
-## 11 Firebase
+## 12 Firebase
 
 ```
-npm install
+npm install @types/request@0.0.30 --save-dev --save-exact
+npm install firebase angularfire2 --save
 
 ```
 
-## 12
+## 13
 
 tsconfig.json
 
@@ -266,7 +267,7 @@ tsconfig.json
 ```
 
 
-## 13
+## 14
 
 node_modules/@ionic/app-scripts/config/rollup.config.js
 
@@ -346,7 +347,7 @@ module.exports = rollupConfig;
 
 ```
 
-## 14
+## 15
 
 ```
 import { NgModule } from '@angular/core';
@@ -387,7 +388,7 @@ export class AppModule {}
 
 ```
 
-## 15
+## 16
 
 ```
 import { Component } from '@angular/core';
@@ -423,19 +424,19 @@ export class ChatPage {
 
 ```
 
-## 16
+## 17
 
 ```
 ionic io init
 ```
 
-## 17
+## 18
 
 ```
 ionic state save
 ```
 
-## 18
+## 19
 
 ```
 ionic package build android
