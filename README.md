@@ -16,6 +16,13 @@ cd jsconfco
 ## 3
 
 ```
+ionic platform add android
+
+```
+
+## 4
+
+```
 ionic serve -l
 q
 ```
@@ -103,7 +110,7 @@ src/pages/home/home.html
 Install plugin
 
 ```
-ionic plugin add ----
+ionic plugin add cordova-plugin-camera
 ``` 
 
 ## 7
