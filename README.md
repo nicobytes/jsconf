@@ -114,7 +114,7 @@ Create chat page
 ionic g page chat
 ``` 
 
-## 12
+## 8
 
 ```
 import { NgModule } from '@angular/core';
@@ -143,7 +143,7 @@ export class AppModule {}
 
 ```
 
-## 8
+## 9
 
 src/pages/chat/chat.html
 ```
@@ -182,7 +182,7 @@ src/pages/chat/chat.html
 </ion-footer>
 ``` 
 
-## 9
+## 10
 
 src/pages/chat/chat.ts
 ```
@@ -215,14 +215,14 @@ export class ChatPage {
 
 ```
 
-## 9 Firebase
+## 11 Firebase
 
 ```
 npm install
 
 ```
 
-## 10
+## 12
 
 tsconfig.json
 
@@ -259,7 +259,7 @@ tsconfig.json
 ```
 
 
-## 11
+## 13
 
 node_modules/@ionic/app-scripts/config/rollup.config.js
 
@@ -339,7 +339,7 @@ module.exports = rollupConfig;
 
 ```
 
-## 12
+## 14
 
 ```
 import { NgModule } from '@angular/core';
@@ -380,7 +380,7 @@ export class AppModule {}
 
 ```
 
-## 12
+## 15
 
 ```
 import { Component } from '@angular/core';
@@ -416,19 +416,19 @@ export class ChatPage {
 
 ```
 
-## 13
+## 16
 
 ```
 ionic io init
 ```
 
-## 13
+## 17
 
 ```
 ionic state save
 ```
 
-## 14
+## 18
 
 ```
 ionic package build android
