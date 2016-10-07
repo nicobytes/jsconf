@@ -1,0 +1,47 @@
+{
+  "name": "ionic-hello-world",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "build": "ionic-app-scripts build",
+    "watch": "ionic-app-scripts watch",
+    "serve:before": "watch",
+    "emulate:before": "build",
+    "deploy:before": "build",
+    "build:before": "build",
+    "run:before": "build"
+  },
+  "dependencies": {
+    "@ionic/storage": "^1.0.3",
+    "angularfire2": "^2.0.0-beta.5",
+    "firebase": "^3.4.1",
+    "ionic-angular": "^2.0.0-rc.0",
+    "ionic-native": "^2.0.3",
+    "ionicons": "^3.0.0"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "latest",
+    "@types/request": "0.0.30",
+    "typescript": "^2.0.3"
+  },
+  "description": "jsconfcodemo: An Ionic project",
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "ionic-plugin-keyboard",
+    "cordova-plugin-camera",
+    "cordova-plugin-compat",
+    "cordova-plugin-crosswalk-webview"
+  ],
+  "cordovaPlatforms": [
+    {
+      "platform": "android",
+      "version": "",
+      "locator": "android"
+    }
+  ]
+}

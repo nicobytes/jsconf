@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-img [src]="user.image" *ngIf="user.image"></ion-img>
+  <button block ion-button (click)="takePicture()">Tomar foto</button>
+  <ion-item>
+    <ion-label>Ususario</ion-label>
+    <ion-input type="text" [(ngModel)]="user.username"></ion-input>
+  </ion-item>
+  <button block ion-button (click)="doLogin()">Ingresar</button>
+</ion-content>
